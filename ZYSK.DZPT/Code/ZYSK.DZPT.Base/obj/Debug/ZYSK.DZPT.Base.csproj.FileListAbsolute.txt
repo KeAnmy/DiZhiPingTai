@@ -1,0 +1,14 @@
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\ZYSK.DZPT.Base.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\ZYSK.DZPT.Base.pdb
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\DDTek.Oracle.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\mscorlib.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\zh-Hans\mscorlib.resources.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\normidna.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\normnfc.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\normnfd.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\normnfkc.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\bin\Debug\normnfkd.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\obj\Debug\ZYSK.DZPT.Base.Properties.Resources.resources
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\obj\Debug\ZYSK.DZPT.Base.csproj.GenerateResource.Cache
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\obj\Debug\ZYSK.DZPT.Base.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Base\obj\Debug\ZYSK.DZPT.Base.pdb

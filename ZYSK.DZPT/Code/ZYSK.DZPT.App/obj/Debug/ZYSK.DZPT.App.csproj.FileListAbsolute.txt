@@ -1,0 +1,11 @@
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\Output\ZYSK.DZPT.App.exe.config
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\Output\ZYSK.DZPT.App.exe
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\Output\ZYSK.DZPT.App.pdb
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Output\ZYSK.DZPT.App.exe.config
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Output\ZYSK.DZPT.App.exe
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Output\ZYSK.DZPT.App.pdb
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.App\obj\Debug\ZYSK.DZPT.App.csprojResolveAssemblyReference.cache
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.App\obj\Debug\ZYSK.DZPT.App.Properties.Resources.resources
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.App\obj\Debug\ZYSK.DZPT.App.csproj.GenerateResource.Cache
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.App\obj\Debug\ZYSK.DZPT.App.exe
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.App\obj\Debug\ZYSK.DZPT.App.pdb

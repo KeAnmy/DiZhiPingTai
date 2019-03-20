@@ -1,0 +1,141 @@
+﻿<dx:DXWindow xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+    xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"       
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:System="clr-namespace:System;assembly=mscorlib"  x:Class="ZYSK.DZPT.QueryUI.UI.WndProjectImport"
+    Title="工程数据入库" Height="745" Width="500" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="173" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="141" />
+            <RowDefinition Height="208" />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        <dxlc:LayoutGroup x:Name="lgroup1" Grid.Row="0" >
+            <StackPanel Orientation="Vertical" Margin="10">
+
+                <WrapPanel Height="20" >
+                    <TextBlock Text="*请选择要导入的理正数据库：  " />
+                    <dxe:TextEdit  x:Name="txtFilePath" Width="200 "/>
+                    <dx:SimpleButton x:Name="btnSelectFile"  Content="选择 ···" Margin="3,0,0,0" Click="OnBtnClick_selectFile"/>
+                </WrapPanel>
+            </StackPanel>
+        </dxlc:LayoutGroup>
+
+        <dxlc:GroupBox x:Name="gbox2" Grid.Row="1" Header="工程信息" >
+            <WrapPanel Orientation="Vertical" >
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="*工程编号:   "  Margin=" 0,0,4,0"  />
+                    <dxe:TextEdit x:Name="txtPrjNo"    Width="200 " HorizontalAlignment="Left" IsEnabled="False" EditValue=""/>
+                    <TextBlock Text="(编号：2位区域号+4位编号)"  Margin="10,0,0,0"  />
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="*工程名称:   "  Margin=" 0,0,4,0" />
+                    <dxe:TextEdit x:Name="txtPrjName"   Width="352 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="*工程负责人: " />
+                    <dxe:TextEdit x:Name="txtPrjHeader"   Width="130 " HorizontalAlignment="Left" Text="张三" />
+                    <TextBlock Text="*建设单位:   " Margin="22,0,2,0" />
+                    <dxe:TextEdit x:Name="txtPrjUnit"   Width="130 " HorizontalAlignment="Left" Text="建设集团"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="*建立时间:   " Margin=" 0,0,4,0" />
+                    <dxe:DateEdit x:Name="txtPrjDate" Width="130 " HorizontalAlignment="Left" DateTime="2018-11-01" />
+                    <TextBlock Text="*档案编号:   " Margin="22,0,4,0" />
+                    <dxe:TextEdit x:Name="txtPrjFileNo"  Width="130 " HorizontalAlignment="Left" Text="sy20180102"/>
+                </WrapPanel>
+            </WrapPanel>
+        </dxlc:GroupBox>
+        <dxlc:GroupBox x:Name="gbox3" Grid.Row="2" Header="空间参考基准" IsEnabled="False">
+            <WrapPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="坐标系统:   " Margin=" 0,0,4,0" />
+                <dxe:ComboBoxEdit x:Name="cboxCoordSys"  Width="130 " HorizontalAlignment="Left">
+                    <dxe:ComboBoxEditItem Content="北京54坐标系" />
+                    <dxe:ComboBoxEditItem Content="西安80坐标系" />
+                    <dxe:ComboBoxEditItem Content="CGCS2000坐标系" />
+                </dxe:ComboBoxEdit>
+                <TextBlock Text="高程系统:   " Margin="22,0,4,0" />
+                <dxe:ComboBoxEdit x:Name="cboxElevationSys" Width="130 " HorizontalAlignment="Left">
+                    <dxe:ComboBoxEditItem Content="黄海高程系统" />
+                    <dxe:ComboBoxEditItem Content="国家高程基准" />
+                </dxe:ComboBoxEdit>
+            </WrapPanel>
+
+        </dxlc:GroupBox>
+        <dxlc:GroupBox x:Name="gbox4" Grid.Row="3" Header="场地信息" >
+            <WrapPanel Orientation="Vertical" >
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock  Text="位置信息:   "  Margin=" 0,0,4,0" />
+                    <dxe:TextEdit x:Name="txtLocationInfo"   Width="359 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock  Text="地形信息:   "  Margin=" 0,0,4,0" />
+                    <dxe:TextEdit x:Name="txtTerrainInfo"   Width="359 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="地貌信息:   "  Margin=" 0,0,3,0" />
+                    <dxe:TextEdit x:Name="txtDimaoInfo"   Width="359 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+            </WrapPanel>
+        </dxlc:GroupBox>
+
+        <dxlc:GroupBox x:Name="gbox5" Grid.Row="4" Header="地震效应评价" >
+            <WrapPanel Orientation="Vertical" >
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="抗震设防强度(级): " />
+                    <dxe:TextEdit x:Name="txtDizhen1"   Width="100 " HorizontalAlignment="Left" />
+                    <TextBlock Text="基本地震加速度值(g):   " Margin="21,0,0,0" />
+                    <dxe:TextEdit x:Name="txtDizhen2"  Width="100 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="设计地震分组(组): " />
+                    <dxe:TextEdit x:Name="txtDizhen3"  Width="100 " HorizontalAlignment="Left" />
+                    <TextBlock Text="等效剪切波速(m/s):      " Margin="20,0,0,0" />
+                    <dxe:TextEdit x:Name="txtDizhen4"  Width="100 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="场地覆盖厚度(m): " />
+                    <dxe:TextEdit x:Name="txtDizhen5"  Width="100 " HorizontalAlignment="Left" />
+                    <TextBlock Text="建筑物场地类别(类):     " Margin="21,0,0,0" />
+                    <dxe:TextEdit x:Name="txtDizhen6"  Width="100 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="设计特征周期(s):   " />
+                    <dxe:TextEdit x:Name="txtDizhen7"  Width="100 " HorizontalAlignment="Left" />
+                    <TextBlock Text="标准冻结深度(m):        " Margin="22,0,0,0" />
+                    <dxe:TextEdit x:Name="txtDizhen8"  Width="100 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="地下水情况介绍:  "  Margin=" 0,0,4,0" />
+                    <dxe:TextEdit x:Name="txtDizhen9"  Width="346 " HorizontalAlignment="Left"/>
+                </WrapPanel>
+            </WrapPanel>
+        </dxlc:GroupBox>
+
+        <dxlc:LayoutGroup x:Name="lgroup2" Grid.Row="5" >
+            <StackPanel Orientation="Vertical">
+                <WrapPanel Orientation="Horizontal" Margin="10" >
+                    <dx:SimpleButton x:Name="btnModifyTuce" Content="测试"  Click="btnClick_Test"/>
+                    <dx:SimpleButton x:Name="btnImportProject" Content="导入" Margin="40,0,40,0"  Click="OnBtnClick_importProject"/>
+                    <dxe:ProgressBarEdit x:Name="pbarImport" Width="150" ContentDisplayMode="Content" >
+                        <dxe:ProgressBarEdit.EditValue>
+                            <System:Double>0</System:Double>
+                        </dxe:ProgressBarEdit.EditValue>
+                    </dxe:ProgressBarEdit>
+                    <dx:SimpleButton x:Name="btnEixt" Content="退出" Margin="40,0,0,0" Click="OnBtnClick_Eixt" />
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" >
+                    <TextBlock Text="  注：*为必填项" Margin="0,0,0,5" />
+                    <TextBlock x:Name="txtErrMsg" Foreground="Red" TextAlignment="Right" Margin="0,0,0,5"  Width="380" />
+                </WrapPanel>
+
+            </StackPanel>
+
+        </dxlc:LayoutGroup>
+
+    </Grid>
+</dx:DXWindow>

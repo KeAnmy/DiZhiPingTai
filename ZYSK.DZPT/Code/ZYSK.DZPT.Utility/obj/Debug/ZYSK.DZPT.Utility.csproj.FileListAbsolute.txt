@@ -1,0 +1,14 @@
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\ZYSK.DZPT.Utility.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\ZYSK.DZPT.Utility.pdb
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\mscorlib.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\System.Net.Http.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\System.Net.Http.xml
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\zh-Hans\mscorlib.resources.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\normidna.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\normnfc.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\normnfd.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\normnfkc.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\bin\Debug\normnfkd.nlp
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\obj\Debug\ZYSK.DZPT.Utility.dll
+G:\PersonalProjects\DiZhiPingTai\ZYSK.DZPT\Code\ZYSK.DZPT.Utility\obj\Debug\ZYSK.DZPT.Utility.pdb
